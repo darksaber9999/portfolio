@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ebcce9b2a3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/theme.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Chris Kellogg - Web Developer</title>
+</head>
+
+<body>
+
+  <!-- Theme Control Section -->
+  <div class="theme-panel">
+    <div class="theme-body">
+      <div class="btn-group">
+        <button data-toggle="light" class="switcher-btn active">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <button data-toggle="dark" class="switcher-btn">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+      <button class="theme-tab">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+    </div>
+  </div>
+
+  <main class="site-wrapper">
+
+    <!-- Header/Nav Section -->
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="brand-logo">
+          <a href="#home">
+            <div class="code-icon">
+              <i class="fas fa-code"></i>
+            </div>
+          </a>
+        </div>
+        <div class="navbar-nav">
+          <ul class="ul-defaults-none main-menu">
+            <li class="nav-item">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg">
+
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="header-lg">
+            &#60;Chris Kellogg /&#62;
+          </h1>
+          <div class="sub-header">
+            <span>Front-End Web Developer</span>
+            <br>
+            Aspiring for Full-Stack
+          </div>
+          <a href="#aboutMe">
+            <div class="btn btn-primary round-pill">
+              About me
+            </div>
+          </a>
+          <a href="#projects">
+            <div class="btn btn-primary round-pill">
+              My Projects
+            </div>
+          </a>
+          <a href="#aboutMe">
+            <div id="letsChat" class="btn btn-primary round-pill">
+              Let's chat
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Sub-Hero/About Me Section -->
+    <section id="aboutMe" class="about-me">
+
+      <div>
+        <h2 class="header-md">About Me</h2>
+        <div class="slide-ctrl-container">
+          <button>
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="about-me-carousel">
+
+        <div class="about-me-item">
+          <div class="about-me-text">
+            I am a Front-End Web Developer who is working on learning Back-End as well. I have a formal
+            Bachelor's degree in Information Technology from <em>University of Phoenix</em> and I am currently working
+            on my
+            Full-Stack Web Developer education from <em>Devslopes Academy</em>.
+            </br></br>
+            I love the problem solving aspect of development and coding and always get a kick out of seeing an idea come
+            to digital life. I also love to discover new aspects of development languages and their various libraries
+            and frameworks.
+            </br></br>
+            Currently, I have a number of project in my portfolio that show my abilities in HTML, CSS,
+            and JavaScript. My more recent additions to my learning/skills are in Node.js and React.js. A transition
+            into learning Typescript is also something that I have planned in the future.
+          </div>
+          <div class="about-me-title">
+            <div class="avatar">
+              <div class="code-icon">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+            <div class="details">
+              <div class="title">Hello World!</div>
+              <div class="sub-title">My name is Chris Kellogg.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-me-item">
+          <img src="./assets/images/chriskelloggportrait.jpg" alt="Portrait of Chris Kellogg">
+          <div class="about-me-text">
+            Social Links:
+            <div class="contact-me-block">
+              <a href="https://github.com/darksaber9999">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/chris-kellogg-96256b15b/">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="mailto:chriskellogg@me.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="about-me-title">
+            <div class="avatar">
+              <div class="code-icon">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+            <div class="details">
+              <div class="title">Contact Me</div>
+              <div class="sub-title">Let's chat about what I can do for you.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coming Soon -->
+        <!-- <div class="about-me-item">
+          <div class="about-me-text">
+            Have a project or question?
+          </div>
+          <form action="" class="contact-form">
+            <input class="form-control" name="name" type="text" placeholder="Name">
+            <input class="form-control" name="email" type="email" placeholder="Email">
+            <input class="form-control" name="subject" type="text" placeholder="Subject">
+            <textarea class="form-control" name="message" cols="30" rows="3"
+              placeholder="Write your message..."></textarea>
+            <input type="submit" value="Send" class="btn btn-primary round-pill">
+          </form>
+          <div class="about-me-title">
+            <div class="avatar">
+              <div class="code-icon">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+            <div class="details">
+              <div class="title">Send me a message</div>
+              <div class="sub-title">I will attempt to reply within 48 hours.</div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="about-me-item">
+          <div class="about-me-text">
+            Languages:
+            <div class="tech-icons">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+            Frameworks & Libraries:
+            <div class="tech-icons">
+              <i class="fa-brands fa-bootstrap"></i>
+              <i class="fa-brands fa-node-js"></i>
+              <i class="fa-brands fa-react"></i>
+            </div>
+            Tools:
+            <div class="tech-icons">
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-codepen"></i>
+            </div>
+          </div>
+          <div class="about-me-title">
+            <div class="avatar">
+              <div class="code-icon">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+            <div class="details">
+              <div class="title">Technologies</div>
+              <div class="sub-title">Learn more about my stack.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Sub-Hero/Projects Section -->
+    <section id="projects" class="portfolio-section">
+
+      <h2 class="header-md">Projects</h2>
+
+      <div class="container">
+        <ul class="portfolio-filter-nav ul-defaults-none">
+          <li data-filter="all" class="filter-link active">All Work</li>
+          <li data-filter="html" class="filter-link">HTML</li>
+          <li data-filter="css" class="filter-link">CSS</li>
+          <li data-filter="js" class="filter-link">JavaScript</li>
+          <li data-filter="api" class="filter-link">API</li>
+          <li data-filter="node" class="filter-link">Node</li>
+          <li data-filter="react" class="filter-link">React</li>
+        </ul>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Cards programmatically created -->
+      </div>
+
+    </section>
+
+    <footer>
+      <div>Website designed and coded by Chris Kellogg</div>
+    </footer>
+
+  </main>
+  <script src="js/main.js"></script>
+  <script src="js/carousel.js"></script>
+</body>
+
+</html>
