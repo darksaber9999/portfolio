@@ -155,6 +155,7 @@
 
 .portfolio-filter-nav .filter-link:hover {
   cursor: pointer;
+  font-size: 1.35rem;
 }
 
 .portfolio-filter-nav .filter-link.active {
@@ -162,54 +163,23 @@
 }
 
 .portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   padding: 3rem 1rem;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .portfolio-card {
-  position: relative;
   margin: 0 1rem 1.85rem;
-  max-width: 255px;
+  cursor: pointer;
 }
 
 .card-body img {
   width: 100%;
-  height: 255px;
-  object-fit: cover;
   border-radius: 8px;
 }
 
 .card-popup-box {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-  right: 20px;
-  transition: 0.4s;
-  z-index: 1;
   padding: 1.25rem 1.875rem;
-  opacity: 0;
-}
-
-.card-popup-box:before {
-  position: absolute;
-  content: "";
-  background: var(--bg);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  opacity: 0.9;
-  border-radius: 8px;
-}
-
-.portfolio-card:hover .card-popup-box {
-  top: 20px;
-  bottom: 20px;
-  opacity: 1;
-  cursor: pointer;
 }
 
 .card-popup-box div {
@@ -220,11 +190,9 @@
   padding-bottom: 0.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  pointer-events: none;
 }
 
 .card-popup-box h3 {
-  pointer-events: none;
   color: var(--color-headings);
   font-size: 1.3125rem;
   letter-spacing: -0.5px;
