@@ -181,11 +181,11 @@ const createPopupModal = (modalId, modalTitle, imageNum, techDescription, modalD
   modalBodyButtonLink1.setAttribute("href", githubLink);
   modalBodyButtonLink1.setAttribute("target", "_blank");
   modalBodyButton1.setAttribute("class", "btn btn-primary round-pill");
-  modalBodyButton1.innerHTML = "See on GitHub";
+  modalBodyButton1.innerHTML = "GitHub";
   modalBodyButtonLink2.setAttribute("href", websiteLink);
   modalBodyButtonLink2.setAttribute("target", "_blank");
   modalBodyButton2.setAttribute("class", "btn btn-primary round-pill");
-  modalBodyButton2.innerHTML = "Live Website";
+  modalBodyButton2.innerHTML = "Website";
 
 
   modalBodyButtonLink1.appendChild(modalBodyButton1);
