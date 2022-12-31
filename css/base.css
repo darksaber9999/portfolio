@@ -9,9 +9,17 @@ header.site-header {
 
 section {
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+section.hero-main {
+  height: 100vh;
+}
+
+section.about-me,
+section.portfolio-section {
+  margin: 80px 0 160px;
 }
 
 *,

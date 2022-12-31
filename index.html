@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,9 @@
   <script src="https://kit.fontawesome.com/ebcce9b2a3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/theme.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/theme-controls.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="./css/responsive.css">
   <title>Chris Kellogg - Web Developer</title>
 </head>
@@ -60,7 +62,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-bg">
+    <section id="home" class="hero-main">
 
       <div class="container">
         <div class="hero-content">
@@ -95,79 +97,100 @@
     <!-- Sub-Hero/About Me Section -->
     <section id="aboutMe" class="about-me">
 
-      <div>
-        <h2 class="header-md">About Me</h2>
-        <div class="slide-ctrl-container">
-          <button>
-            <i class="fas fa-arrow-left"></i>
-          </button>
-          <button>
-            <i class="fas fa-arrow-right"></i>
-          </button>
+      <h2 class="header-md">About Me</h2>
+
+      <div class="about-me-item">
+        <div class="about-me-text">
+          I am a Front-End Web Developer who is working on learning Back-End as well. I have a formal
+          Bachelor's degree in Information Technology from <em>University of Phoenix</em> and I am currently working
+          on my
+          Full-Stack Web Developer education from <em>Devslopes Academy</em>.
+          </br></br>
+          I love the problem solving aspect of development and coding and always get a kick out of seeing an idea come
+          to digital life. I also love to discover new aspects of development languages and their various libraries
+          and frameworks.
+          </br></br>
+          Currently, I have a number of project in my portfolio that show my abilities in HTML, CSS,
+          and JavaScript. My more recent additions to my learning/skills are in Node.js and React.js. A transition
+          into learning Typescript is also something that I have planned in the future.
+        </div>
+        <div class="about-me-title">
+          <div class="avatar">
+            <div class="code-icon">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+          <div class="details">
+            <div class="title">Hello World!</div>
+            <div class="sub-title">My name is Chris Kellogg.</div>
+          </div>
         </div>
       </div>
 
-      <div class="about-me-carousel">
-
-        <div class="about-me-item">
-          <div class="about-me-text">
-            I am a Front-End Web Developer who is working on learning Back-End as well. I have a formal
-            Bachelor's degree in Information Technology from <em>University of Phoenix</em> and I am currently working
-            on my
-            Full-Stack Web Developer education from <em>Devslopes Academy</em>.
-            </br></br>
-            I love the problem solving aspect of development and coding and always get a kick out of seeing an idea come
-            to digital life. I also love to discover new aspects of development languages and their various libraries
-            and frameworks.
-            </br></br>
-            Currently, I have a number of project in my portfolio that show my abilities in HTML, CSS,
-            and JavaScript. My more recent additions to my learning/skills are in Node.js and React.js. A transition
-            into learning Typescript is also something that I have planned in the future.
+      <div class="about-me-item">
+        <div class="about-me-text">
+          Languages:
+          <div class="tech-icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
           </div>
-          <div class="about-me-title">
-            <div class="avatar">
-              <div class="code-icon">
-                <i class="fas fa-code"></i>
-              </div>
-            </div>
-            <div class="details">
-              <div class="title">Hello World!</div>
-              <div class="sub-title">My name is Chris Kellogg.</div>
-            </div>
+          Frameworks & Libraries:
+          <div class="tech-icons">
+            <i class="fa-brands fa-bootstrap"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-react"></i>
+          </div>
+          Tools:
+          <div class="tech-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-codepen"></i>
           </div>
         </div>
-
-        <div class="about-me-item">
-          <img src="./assets/images/chriskelloggportrait.jpg" alt="Portrait of Chris Kellogg">
-          <div class="about-me-text">
-            Social Links:
-            <div class="contact-me-block">
-              <a href="https://github.com/darksaber9999">
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/chris-kellogg-96256b15b/">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="mailto:chriskellogg@me.com">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
+        <div class="about-me-title">
+          <div class="avatar">
+            <div class="code-icon">
+              <i class="fas fa-code"></i>
             </div>
           </div>
-          <div class="about-me-title">
-            <div class="avatar">
-              <div class="code-icon">
-                <i class="fas fa-code"></i>
-              </div>
-            </div>
-            <div class="details">
-              <div class="title">Contact Me</div>
-              <div class="sub-title">Let's chat about what I can do for you.</div>
-            </div>
+          <div class="details">
+            <div class="title">Technologies</div>
+            <div class="sub-title">Learn more about my stack.</div>
           </div>
         </div>
+      </div>
 
-        <!-- Coming Soon -->
-        <!-- <div class="about-me-item">
+      <div class="about-me-item">
+        <img src="./assets/images/chriskelloggportrait.jpg" alt="Portrait of Chris Kellogg">
+        <div class="about-me-text">
+          Social Links:
+          <div class="contact-me-block">
+            <a href="https://github.com/darksaber9999">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chris-kellogg-96256b15b/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:chriskellogg@me.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="about-me-title">
+          <div class="avatar">
+            <div class="code-icon">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+          <div class="details">
+            <div class="title">Contact Me</div>
+            <div class="sub-title">Let's chat about what I can do for you.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coming Soon -->
+      <!-- <div class="about-me-item">
           <div class="about-me-text">
             Have a project or question?
           </div>
@@ -191,41 +214,6 @@
             </div>
           </div>
         </div> -->
-
-        <div class="about-me-item">
-          <div class="about-me-text">
-            Languages:
-            <div class="tech-icons">
-              <i class="fa-brands fa-html5"></i>
-              <i class="fa-brands fa-css3-alt"></i>
-              <i class="fa-brands fa-square-js"></i>
-            </div>
-            Frameworks & Libraries:
-            <div class="tech-icons">
-              <i class="fa-brands fa-bootstrap"></i>
-              <i class="fa-brands fa-node-js"></i>
-              <i class="fa-brands fa-react"></i>
-            </div>
-            Tools:
-            <div class="tech-icons">
-              <i class="fa-brands fa-github"></i>
-              <i class="fa-brands fa-codepen"></i>
-            </div>
-          </div>
-          <div class="about-me-title">
-            <div class="avatar">
-              <div class="code-icon">
-                <i class="fas fa-code"></i>
-              </div>
-            </div>
-            <div class="details">
-              <div class="title">Technologies</div>
-              <div class="sub-title">Learn more about my stack.</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
 
     </section>
 
