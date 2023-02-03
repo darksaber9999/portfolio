@@ -112,6 +112,18 @@
   margin: 0 10px;
 }
 
+.tech-icons .fa-html5 {
+  color: #f06529;
+}
+
+.tech-icons .fa-css3-alt {
+  color: #2565ae;
+}
+
+.tech-icons .fa-square-js {
+  color: #f0db4f;
+}
+
 .contact-form .form-control {
   display: block;
   border-top: 0;
