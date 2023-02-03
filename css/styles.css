@@ -124,6 +124,23 @@
   color: #f0db4f;
 }
 
+.tech-icons .fa-bootstrap {
+  color: #553c7b;
+}
+
+.tech-icons .fa-node-js {
+  color: #68a063;
+}
+
+.tech-icons .fa-react {
+  color: #61dbfb;
+}
+
+.tech-icons .fa-github,
+.tech-icons .fa-codepen {
+  color: #211f1f;
+}
+
 .contact-form .form-control {
   display: block;
   border-top: 0;
